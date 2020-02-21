@@ -3,6 +3,7 @@
 	"version": "3.3.24",
 	"description": "Jodit is awesome and usefully wysiwyg editor with filebrowser",
 	"main": "build/jodit.min.js",
+	"module": "build/jodit.es2018.min.js",
 	"types": "index.d.ts",
 	"scripts": {
 		"newversion": "npm test && npm version patch --no-git-tag-version && npm run build && npm run newversiongit && npm publish ./",
